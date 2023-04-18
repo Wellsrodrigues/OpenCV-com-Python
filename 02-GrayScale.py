@@ -2,6 +2,7 @@ import cv2
 
 img = cv2.imread("logo-if.jpg")
 
+
 # print(img.shape)
 # shape retorna altura, largura e canais de cores
 
