@@ -27,6 +27,12 @@ def fun_thresholding():
     
 cap = cv2.VideoCapture('IFMA Campus Caxias.mp4')
 
+# aplicando para imagem
+# frame = cv2.imread("ifma-caxias.jpg")
+# result = fun_thresholding()
+# cv2.imshow("Teste", result)
+# cv2.imwrite("ifma-impainting.png", result)
+
 while True:
     ret, frame = cap.read()
 
