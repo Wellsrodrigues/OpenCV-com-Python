@@ -8,7 +8,7 @@ img = cv2.imread("logo-if.jpg")
 
 (row, col) = img.shape[0:2]
 
-# print(img[0,0])
+print(img[0,0])
 # cor de um pixel na imagem
 
 # aplicando cinza manualmente pegando a media das cores, pois no cinza todas as cores são iguais
