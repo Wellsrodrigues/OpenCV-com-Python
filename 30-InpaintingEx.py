@@ -23,6 +23,7 @@ def createMask():
             # adicionar logo branco no fundo preto para formar a mask
             output[i][j] = logo[i][j]
     # retorna a mask em grayscale
+    
     return (cv2.cvtColor(output, cv2.COLOR_BGR2GRAY))
 
 mask = createMask()
